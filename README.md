@@ -95,4 +95,4 @@ Credentials and the signing key live in `~/.socia/`:
 
 ## License
 
-Proprietary. Copyright Socia.
+Proprietary. Copyright Socia. All rights reserved. See [LICENSE](LICENSE).

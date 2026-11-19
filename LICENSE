@@ -1,0 +1,66 @@
+PROPRIETARY LICENSE
+All Rights Reserved
+
+Copyright (c) 2026 Socia (socia.you)
+
+This software, including its source code, object code, documentation,
+templates, assets, and all related files (the "Software"), is proprietary
+and confidential. It is not open source.
+
+1. Ownership
+
+All right, title, and interest in and to the Software, including all
+intellectual property rights, are and remain the exclusive property of
+Socia. No rights are granted except as expressly stated in this License.
+
+2. Limited permission
+
+Subject to this License, you may install and use the unmodified Software
+for its intended purpose. This is a limited, revocable, non-exclusive,
+non-transferable permission. It does not transfer ownership of the
+Software or grant any rights to the source code.
+
+3. Prohibited uses
+
+Unless you have prior written permission from Socia, you may not:
+
+(a) copy, reproduce, or store the Software, except as strictly necessary
+    to install and run it;
+(b) modify, adapt, translate, or create derivative works of the Software;
+(c) distribute, publish, sublicense, sell, rent, lease, or otherwise make
+    the Software available to third parties;
+(d) reverse engineer, decompile, or disassemble the Software, except to
+    the extent permitted by applicable law;
+(e) remove or alter any copyright, trademark, or proprietary notices.
+
+Viewing, cloning, or forking this repository does not grant a license to
+use, copy, modify, or distribute the Software beyond the limited permission
+in Section 2.
+
+4. Generated mini apps
+
+Mini apps generated with the Software may be used, modified, and
+distributed by you as part of your own mini app. This exception does not
+permit redistributing the Software itself, its source code, or its
+templates as a standalone product or as part of a competing tool.
+
+5. No warranty
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL
+SOCIA BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM,
+OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR ITS USE.
+
+6. Termination
+
+This License terminates automatically if you breach any of its terms. On
+termination, you must stop using the Software and delete all copies in
+your possession or control.
+
+7. Contact
+
+For licensing inquiries or permission requests, contact help@socia.you.
+
+Any use of the Software not expressly permitted by this License is
+prohibited and may result in civil and/or criminal liability.
