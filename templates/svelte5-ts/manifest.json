@@ -1,0 +1,27 @@
+{
+	"username": "{{USERNAME}}",
+	"name": "{{PROJECT_NAME}}",
+	"version": "0.1.0",
+	"entry": "index.html",
+	"ui": {
+		"fullscreen": true,
+		"showHeader": false,
+		"tabbar": {
+			"enabled": true,
+			"defaultTab": "home",
+			"showBack": true,
+			"showSettings": true,
+			"tabs": [
+				{ "id": "home", "icon": "home", "label": "Home" },
+				{ "id": "about", "icon": "info", "label": "About" }
+			]
+		}
+	},
+	"permissions": ["network"],
+	"backend": {
+		"base_url": "https://backend.socia.you",
+		"allowed_paths": ["/api/users/me", "/api/wallet/me"],
+		"allowed_methods": ["GET", "POST", "PUT", "DELETE"],
+		"timeout_sec": 15
+	}
+}

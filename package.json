@@ -1,0 +1,65 @@
+{
+	"name": "@socia.you/cli",
+	"version": "1.0.2",
+	"description": "Create, preview and publish Socia Sphere mini apps",
+	"type": "module",
+	"bin": {
+		"socia": "./dist/index.js",
+		"create-socia-sphere": "./dist/create.js"
+	},
+	"files": [
+		"dist",
+		"templates",
+		"README.md"
+	],
+	"scripts": {
+		"build": "tsc",
+		"dev": "tsc --watch",
+		"test": "npm run build && node --test test/manifest.test.mjs test/auth.test.mjs test/local-http.test.mjs"
+	},
+	"dependencies": {
+		"@noble/ed25519": "^3.2.0",
+		"@noble/hashes": "^2.4.0",
+		"@puppeteer/browsers": "^3.2.3",
+		"chalk": "^5.3.0",
+		"chokidar": "^5.0.0",
+		"commander": "^12.0.0",
+		"express": "^4.21.0",
+		"fs-extra": "^11.2.0",
+		"inquirer": "^11.1.0",
+		"multer": "^2.5.0",
+		"open": "^10.1.0",
+		"ora": "^8.1.0",
+		"puppeteer-core": "^25.12.0",
+		"tar": "^7.4.3"
+	},
+	"devDependencies": {
+		"@types/archiver": "^6.0.3",
+		"@types/express": "^5.0.0",
+		"@types/fs-extra": "^11.0.4",
+		"@types/multer": "^2.3.0",
+		"@types/node": "^22.10.0",
+		"typescript": "^5.7.0"
+	},
+	"engines": {
+		"node": ">=22.12.0"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/socia-you/cli.git"
+	},
+	"bugs": {
+		"url": "https://github.com/socia-you/cli/issues"
+	},
+	"homepage": "https://socia.you",
+	"keywords": [
+		"socia",
+		"sphere",
+		"mini-apps",
+		"cli",
+		"svelte"
+	]
+}
